@@ -20,7 +20,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
   const [selectedAvatar, setSelectedAvatar] = React.useState(CHAR_AVATAR);
 
   const AVATAR_OPTIONS = [
-    "https://lh3.googleusercontent.com/u/0/d/1S0v-4bz0rF_AU6sYAEurOeqCopmyJyVi"
+    "https://lh3.googleusercontent.com/u/0/d/1_owPch1FW78UzmTyAe6Eho9ROef71qtC"
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,10 +29,10 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
     
     onStart({
       name: name.trim(),
-      appearance: appearance.trim() || "22 tuổi. Làn da trắng bóc bẩm sinh. Đẹp tợ tiên sa, cốt cách tiên phàm rớt xuống chốn nhơn gian. Dung mạo em đẹp nhứt Lục tỉnh Nam Kỳ, ngó bề rực rỡ, chim sa cá lặn mần lóa mắt người ngó. Giữ mãi vẻ đẹp ở tuổi mới đến dù đã trôi qua 4 năm.",
+      appearance: appearance.trim() || "20 tuổi. Mang nét đẹp thuần Việt, da trắng ngần, sắc nước hương trời khiến Tưởng Lão Bản nảy sinh dã tâm chiếm đoạt.",
       personality: personality.trim(),
-      age: 22,
-      background: "Linh hồn là một cô gái hiện đại 18 tuổi ở thế kỷ 21, trượt chân ở Đà Lạt xuyên không về thập niên 1930. Mất trí nhớ suốt 4 năm, được Cậu Hai nhặt về từ rừng cao su, làm con hầu rồi được nâng lên làm vợ lẽ. Vừa mới lấy lại được ký ức sau vụ sẩy thai do Cậu Hai gây ra."
+      age: 20,
+      background: "Là con nợ, con ở gạt nợ kiêm "đồ chơi" ấm giường của Tưởng Mạn Xuyên."
     }, selectedAvatar);
   };
 
