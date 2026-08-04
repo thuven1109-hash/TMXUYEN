@@ -32,7 +32,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
       appearance: appearance.trim() || "20 tuổi. Mang nét đẹp thuần Việt, da trắng ngần, sắc nước hương trời khiến Tưởng Lão Bản nảy sinh dã tâm chiếm đoạt.",
       personality: personality.trim(),
       age: 20,
-      background: "Là con nợ, con ở gạt nợ kiêm "đồ chơi" ấm giường của Tưởng Mạn Xuyên."
+      background: "Là con nợ, con ở gạt nợ kiêm đồ chơi ấm giường của Tưởng Mạn Xuyên."
     }, selectedAvatar);
   };
 
